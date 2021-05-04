@@ -1,0 +1,41 @@
+html, body, main {
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+aside {
+    background: lightblue;
+    border: 1px solid blue;
+    width: 20%;
+}
+
+main div {
+    background: lightgreen;
+    border: 1px solid green;
+    width: 60%;
+    margin-left: 5%;
+    max-height: 70%;
+    overflow-y: scroll;
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 0px;
+}

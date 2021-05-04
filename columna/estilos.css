@@ -1,0 +1,70 @@
+html, body, main  {
+    margin: 0px;
+    height: 100%;
+}
+
+header {
+    background-color: darkgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    list-style: none;
+}
+
+header ul li {
+    padding: 0px 10px;
+}
+
+main section {
+    height: 100%;
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#seccion_1 {
+    background-image: url('img/sec1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#seccion_2 {
+    background-image: url('img/sec2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#seccion_3 {
+    background-image: url('img/sec3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    background-color: darkgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    margin: 16px 0;
+}
