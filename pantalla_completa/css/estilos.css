@@ -1,0 +1,97 @@
+html, 
+body, 
+section {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Potta One', cursive;
+}
+
+section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+section ul li {
+    margin: 10px 0px;
+}
+
+section h2 {
+    text-align: center;
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    color: white;
+}
+
+#buho {
+    background: lightcoral url('../img/owl.png') no-repeat center;
+}
+
+#songbird {
+    background: yellowgreen url('../img/songbird.png') no-repeat center;
+}
+
+#tuqui {
+    background: mediumorchid url('../img/tuqui.png') no-repeat center;
+}
+
+aside {
+    position: fixed;
+    left: 5px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+aside nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+aside nav ul li {
+    margin: 10px 0px;
+}
+
+aside nav ul img {
+    width: 75%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+footer ul li {
+    margin: 0px 15px;
+}
+
+footer ul a {
+    color: white;
+    text-decoration: none;
+}

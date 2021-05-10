@@ -1,0 +1,23 @@
+html, 
+body, 
+main {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background: url('cookie.jpg') no-repeat;
+    background-size: cover;
+}
+
+aside {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+    padding: 25px;
+    color: white;
+    font-family: 'Goblin One', cursive;
+}

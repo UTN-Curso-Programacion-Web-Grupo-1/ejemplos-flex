@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main div.tarjeta {
+    width: 23%;
+    border: 1px solid black;
+    margin: 10px 0px;
+}
+
+div.tarjeta img {
+    width: 100%;
+    height: 322px;
+}
+
+span.favorito {
+    display: block;
+    height: 64px;
+    width: 64px;
+    background: url('favorito.png');
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+div.relativo {
+    position: relative;
+}
