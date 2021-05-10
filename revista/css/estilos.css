@@ -1,0 +1,98 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: lightblue;
+    border-bottom: 2px solid blue;
+    height: 180px;
+}
+
+#menu_1 {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+main {
+    margin-top: 180px;
+    padding-top: 20px;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 500px;
+}
+
+section {
+    border: 1px solid black;
+}
+
+section.secundario {
+    width: 25%;
+}
+
+section#principal {
+    width: 40%;
+}
+
+#principal a {
+    display: block;
+    height: 100%;
+    background: url('../imagenes/rocket_ball.png') center no-repeat lightcoral;
+    background-size: 80%;
+    text-align: center;
+    position: relative;
+}
+
+#principal a h3 {
+    margin-top: 0px;
+}
+
+#principal article {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+}
+
+.secundario article {
+    margin: 0 10px;
+    border-bottom: 1px solid grey;
+}
+
+.secundario article p {
+    text-decoration: underline;
+}
+
+article img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.secundario a {
+    background: lightseagreen;
+}
